@@ -1,0 +1,2187 @@
+@charset "UTF-8";
+
+/* CSS Document */
+body{ 	font-family: 'Geomanist';}
+.foto:hover {
+opacity: 0.8;
+}
+.mobile_logo {
+    display: none;
+}
+#antefooter h3 {padding: 0 20px;}
+
+span.call_to_receita {display: table; padding: 10px 20px; margin: auto; background-color: #ffba00; position: relative; top: 100px; font-weight: bold; box-shadow: 1px 2px 4px #000;}
+span.call_to_receita a{color:#000;}
+
+.salmao{background-color:#ef4058 !important;}
+.restauranteinterno h2 {
+    float: left;
+}
+.sempreativo {
+	background: #002A41 !important;
+	font-weight: bold;
+}
+.sempreativo:hover {
+	background: #ef4058 !important;
+}
+.sempreativo a {
+	color: #FDB913 !important;
+        font-weight: lighter;
+}
+.banner-mobile-perg{display:none;}
+#banner_mobile_evento{display:none;}
+footer a:hover {font-weight: bold;}
+.ctaeventos {
+    color: rgba(255,255,255,1);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 28px;
+    background: #002a41;
+display: none;
+}
+.chef h2 {
+    float: left !important;
+    text-align: left;
+}
+
+.rodape-mobile{display:none;}
+
+.ctaeventos:hover {
+    background: rgba(255,255,255,.8);
+    color: #002a41;
+}
+.chef .col-lg-6{padding:0;}
+.mais {
+    background: rgba(8,22,54,1);
+    padding: 10px 20px;
+    margin: 60px 65px 0 0;
+    border-radius: 5px;
+    color: #FFF;
+    float: right;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.mais:hover {
+    color: #FFF;
+    background: rgba(8,22,54,.8);
+}
+#chamadas h2 {
+font-size: 60px;
+    margin-bottom: 40px !important;
+}
+.evento .col-lg-12 {
+padding-top: 20px;
+}
+.evento .col-lg-12 img {
+    margin: 35px 70px 20px 0;
+}
+.evento_old{ margin: 0;}
+figure {
+    width: 33%;
+    float: left;
+}
+.resumobeneficio {
+    padding: 10px !important;
+    width: 63%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #FFFFFF;
+	text-align: center;
+}
+.resumobeneficio h3{
+	color:#FFF; 
+	font-family: 'Geomanist';
+	font-size: 23px;
+	margin-top: 0;
+}
+.sejaum {
+	background-size: contain;
+	position: fixed;
+	bottom: 10px;
+	right: 0;
+cursor: pointer;
+cursor: hand;
+	z-index: 9999;
+}
+.sejaum a, .sejaum a:hover, .sejaum a:focus, .sejaum a:active {
+	font-family: 'Have Heart 2';
+	color: #000;
+	font-size: 50px;
+	display: block;
+	padding: 0 40px;
+	text-decoration: none;
+}
+.sejaum a:hover, .sejaum a:focus, .sejaum a:active {
+	bottom: 0;
+}
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active, .sejaum.hover {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+* {
+	white-space: initial;
+}
+header nav ul li a:active, header nav ul li a:focus {
+	text-decoration: none;
+	color: #ffffff;
+}
+.container.sliderpapodechef {
+	float: none;
+	clear: both;
+	margin: 0 auto !important;
+	position: initial;
+	padding: 180px 0px !important;
+}
+
+p {
+	font-family: 'Geomanist';
+	font-weight: 300;
+}
+.form_papo_chefe {
+	font-weight: 300;
+	font-family: 'Geomanist';
+	margin-top: 15px;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.form_papo_chefe a {
+	color: #afe9ff
+}
+input, textarea, select {
+	width: 100%;
+	margin-bottom: 10px !important;
+}
+*:hover, *:focus, *:active {
+	text-decoration: none !important;
+}
+header {
+	background: #002a41;
+	width: 100%;
+	height: 105px;
+	box-shadow: 3px 1px 6px rgba(0,0,0, 0.75);
+	position: fixed;
+	top: 0;
+	z-index: 9;
+}
+.menuexpand .logocook {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/logo_cook_lovers_le_club_accor_hotels.png) no-repeat top left;
+	height: 154px;
+	width: 230px;
+	float: left;
+margin-left: -10px;
+}
+.menucollapse .logocook {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/logo-cookovers-negativo.png) no-repeat top left;
+	height: 77px;
+	width: 143px;
+	float: left;
+	margin-top: 13px;
+}
+/* Submenu */
+
+.sub-menu{background: #002a41;}
+.clear {clear:both}
+svg.icon.icon-angle-down { display: none;}
+
+.menu-menu-principal-container ul li .sub-menu {display: none; width: 165px; padding: 0; margin: 0;}
+.sub-menu li { padding: 0;
+    display: table;
+    width: 100%;
+}
+.sub-menu{display: none;}
+.menu-menu-principal-container ul li .sub-menu li a {}
+.menu-menu-principal-container ul li:hover .sub-menu {display:block; position:absolute;}
+.sub-menu { width: 160px;}
+.sub-menu li { display: table; width: 100%;}
+
+
+
+
+.logoleclub {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/logo_le_club_accor_hotels.png) no-repeat right;
+	background-size: contain;
+	width: 152px;
+	height: 47px;
+	margin-top: 30px;
+	float: left;
+}
+header nav ul {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+header nav ul a:hover {
+	cursor: pointer
+}
+header nav ul li {
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	font-family: 'Geomanist';
+	font-weight: 300;
+	text-align: center;
+        letter-spacing: 1px;
+}
+header nav ul li a {
+	padding: 31px 10px;
+	display: block;
+	min-height: 80px;
+}
+.glyphicon-home {
+    padding-top: 21px !important;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a:hover, nav ul li a {
+	color: #FFF;
+}
+header nav ul li:hover, .active, #menu .current-menu-parent > a {
+	background: #ef4058;
+}
+.menucollapse nav {
+	margin: 0 40px;
+}
+nav.col-lg-7, header.col-lg-3 {
+	margin: 0;
+	padding: 0;
+}
+.glyphicon-home {
+	padding-top: 10px;
+}
+.container.sliderreceita {
+	float: none;
+	clear: both;
+	margin: 0 auto !important;
+	position: initial;
+	padding: 110px 0px !important;
+}
+#slider {
+	min-height: 700px;
+	background: center center;
+	background-size: cover;
+	position: relative;
+	margin-top: 80px;
+}
+.barra {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	z-index: 8;
+}
+section {
+	width: 100%;
+	min-height: 800px;
+	padding: 100px 0 50px 0;
+	float: left;
+}
+section#slider {
+	padding: 0;
+}
+.slidehome {
+	float: none !important;
+	margin: 0 auto !important;
+	position: relative;
+}
+.slidehome .col-lg-6 {
+	padding-top: 140px;
+}
+#chamadas {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo-cozinha.jpg) top center;
+background-size: cover;
+text-align: center;
+background-attachment: fixed;
+}
+.border {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/border.png) repeat-y right;
+}
+h2 {
+	color: #FFFFFF;
+	font-family: 'Have Heart One';
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-size: 50px;
+	margin: 0px !important;
+}
+#chamadas .col-lg-4 img {
+	border: 5px solid #FFFFFF;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.62);
+        -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.62);
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.62);
+}
+.linha .col-lg-4 {
+	padding: 0 20px;
+}
+.linha p {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/border-horizontal.png) repeat-x center;
+	height: 70px;
+}
+#chamadas p {
+	color: #FFFFFF;
+	font-family: 'Geomanist';
+	font-weight: 300;
+	font-size: 15px;
+	padding: 0 40px;
+}
+#contato {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/plano-de-fundo-contato.jpg) repeat center center fixed;
+	color: #ffffff;
+	padding-bottom: 0;
+}
+#contato h2 {
+	font-family: 'Have Heart 2';
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo_titulo_contato.png) no-repeat center center;
+	padding: 0px 80px 40px 80px;
+	text-align: center;
+	color: #000000;
+	float: left;
+	background-size: contain;
+	font-size: 85px;
+}
+#contato .esquerdo {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo-paragrafo-esquerdo-contato.png) no-repeat center center;
+	
+	padding: 65px 120px 42px 130px;
+}
+#contato .direito {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo-paragrafo-direito-contato.png) no-repeat center center;
+	background-size: contain;
+	font-size: 14px;
+	padding: 70px 78px 360px 74px;
+}
+#contato a {
+	color: #afe9ff;
+}
+
+.red .direito {
+	color: #ffffff;
+    padding-bottom: 63px;
+}
+
+.yellow .direito {
+	color: #ffffff;
+    padding-bottom: 63px;
+}
+
+.esquerdo, .direito {
+	font-family: 'Geomanist';
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 300;
+}
+.esquerdo img, .direito img {
+	max-width: 100%;
+}
+.direito.image_chef_2 {
+	margin-top: 55px;
+}
+.direito input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.wpcf7-submit {
+	float: right;
+	background-color: #a9e437;
+	width: 135px !important;
+	text-transform: uppercase;
+	height: 34px;
+	border: none;
+	color: #002a41;
+	font-size: 16px;
+}
+.wpcf7-submit:hover {
+	background: #83b02a;
+}
+.inscrevase {
+	float: left;
+	font-size: 12px !important;
+	text-align: right;
+	line-height: 20px !important;
+	margin-right: 15px;
+}
+#antefooter {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo-de-madeira.jpg) center center fixed;
+	background-size: cover;
+	color: #FFF;
+	text-align: center;
+	margin-top: -30px;
+	position: relative;
+}
+#antefooter h2 {
+	font-size: 70px;
+}
+#antefooter p {
+	font-size: 18px;
+	font-family: 'Geomanist';
+	line-height: 27px;
+	margin: 0 0 60px 0;
+}
+.foto {
+	float: left;
+	margin: 13px 0 0 7px;
+}
+.chefsmenu img {
+	float: left;
+	margin: 13px 0 0 7px;
+}
+.frame {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/frame-foto.png) no-repeat center center;
+	width: 282px;
+	height: 342px;
+	margin: 0 auto;
+	position: absolute;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.52);
+        -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.42);
+        box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.52);
+
+}
+.frame.chefs h3 {
+	font-size: 50px;
+	margin-top: 292px;
+}
+.sliderpapodechef h1 {
+	font-size: 120px;
+	margin: 0;
+}
+.sliderpapodechef p {
+	font-size: 20px;
+	line-height: 30px;
+}
+h1, h3 {
+	color: #000000;
+	font-family: 'Have Heart One';
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-size: 45px;
+}
+h3 {
+	margin-top: 277px;
+	font-size: 35px;
+	line-height: 30px;
+}
+
+.title_receita .faixa h2{
+float:none !important;
+text-align:center !important;
+}
+.faixa h2 {
+	line-height: 52px;
+}
+.faixa {
+	padding: 20px 0 10px 0;
+}
+.frame.um {
+	-ms-transform: rotate(1deg); /* IE 9 */
+	-webkit-transform: rotate(1deg); /* Safari */
+	transform: rotate(1deg);
+}
+.frame.dois {
+	-ms-transform: rotate(-1deg); /* IE 9 */
+	-webkit-transform: rotate(-1deg); /* Safari */
+	transform: rotate(-1deg);
+}
+.frame.tres {
+	-ms-transform: rotate(2deg); /* IE 9 */
+	-webkit-transform: rotate(2deg); /* Safari */
+	transform: rotate(2deg);
+}
+footer, nav.receita {
+	padding: 40px 0 0 0;
+}
+footer, nav.receita, .faixa, .container_quest {
+	background: #002a41;
+	width: 100%;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+footer .container {
+	margin-bottom: 20px;
+}
+footer nav {
+	width: 100%;
+	background: #000000;
+	height: 80px;
+	margin-top: 15px;
+	margin: 0 !important;
+}
+footer nav ul li {
+	list-style: none;
+	display: inline-block;
+	color: #FFF;
+	padding: 35px 12px 0 12px;
+	font-size: 12px;
+	font-family: 'Geomanist';
+	font-weight: 300;
+	text-align: center;
+    background: #000 !important;
+}
+footer nav ul li:hover {
+	color: #a6a6a6;
+}
+footer nav ul {
+	width: 695px;
+	margin: 0 auto;
+}
+#pattern {
+	min-height: 50vh;
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/padrao_rodape_azulejo.jpg) repeat center center;
+	padding: 0;
+}
+#banner {
+	min-height: 600px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+}
+#banner-mobile{display:none;}
+#banner-mobile img {width: 100%;}
+
+.none_hotel_rest {
+	font-family: 'Geomanist';
+	font-size: 25px;
+}
+/* Se na página de restaurante escolhermos preto no titulo*/
+.title_black h1 {
+	color: #000000 !important;
+}
+.title_black .none_hotel_rest {
+	color: #000000;
+}
+img.icon_rest_promo {
+    margin: auto;
+    width: 132px;
+    display: table;
+}
+
+.receita {
+	color: #000000;
+}
+.receita h1 {
+	margin: 30px 0 0 0;
+	font-size: 75px;
+}
+.receita p {
+	font-size: 18px;
+	line-height: 28px;
+}
+.receita .col-lg-6 {
+	margin-left: 480px;
+}
+nav.receita img, img.esquerdo, img.direito {
+	border: 8px solid #FFFFFF;
+	box-shadow: 1px 5px 10px rgba(0,0,0, 0.65);
+	margin-bottom: 15px;
+}
+img.direito.image_chef_2 {
+    padding-bottom: 0;
+}
+nav.receita h2 {
+	color: #FFFFFF;
+	font-family: 'Have Heart 2';
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.receita h2 {
+	color: #FFFFFF;
+	font-family: 'Have Heart 2';
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+.title {
+	float: left;
+	width: 100%;
+	padding: 41px 80px 30px 30px;
+}
+
+.description {
+	background: #be234f;
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	margin-bottom: 21px;
+}
+
+.direito .col-lg-8 {
+	padding: 0 0 0 50px;
+}
+.esquerdo .col-lg-8 {
+	padding: 0 50px 0 0;
+}
+.direito .col-lg-8 p, .esquerdo .col-lg-8 p {
+	margin-left: 20px;
+}
+h3.hotel, h3.autor {
+	margin: 0 76px!important;
+}
+h3.hotel, h3.autor, h3.hotel a {
+	color: #FFF !important;
+	font-size: 19px!important;
+	-webkit-font-smoothing: auto !important;
+}
+h3.autor a {
+    color: #faa71a !important;
+	font-size: 22px!important;
+	-webkit-font-smoothing: auto !important;
+}
+h3.hotel a:hover, h3.autor a:hover {
+	opacity: 0.75;
+}
+
+.description h3, .direito .col-lg-8 h3, .esquerdo .col-lg-8 h3 {
+	font-family: 'Geomanist';
+	font-weight: normal;
+	font-size: 19px;
+	margin: 0 50px;
+	-webkit-font-smoothing: auto !important;
+}
+.direito .col-lg-8 h3, .esquerdo .col-lg-8 h3 {
+	color: #fff200;
+	margin: 38px 0 17px 17px;
+	font-size: 25px;
+}
+.fotoprato h2 {
+	color: #FFF;
+	font-family: 'Have Heart 2';
+	float: right;
+	line-height: 40px;
+	font-size: 75px;
+}
+
+
+/*todas a scores*/
+.direito{padding-bottom:47px;}
+.vinhoM, .red, .blue, .red .container-fluid, .yellow .container-fluid, .red .col-lg-6, .yellow .col-lg-6, .blue .container-fluid, .blue .col-lg-6 {
+	padding: 0;}
+.title h2 { padding-left: 45px;}
+.red .row, .blue .row, .yellow .row {display: table;}
+.red .row, .blue .row, .yellow .row {display: flex;margin: 0;}
+
+
+/*vermelho */
+.red ul {
+	float: none;
+	width: 620px;
+        margin-left:-10px;
+}
+.red h2{ line-height: 52px;}
+.red li{margin: 10px;}
+
+.red .fotoprato {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.red .direito { background: #e2556c; padding-bottom: 4rem !important;}
+
+.red .title {
+	background: #ae0535;
+}
+
+.red {
+	background: #ef4058;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	
+}
+
+
+/*azul*/
+
+
+.blue ul {
+	float: none;
+        margin-left: -9px;
+}
+.blue li{margin: 10px;}
+
+.blue .fotoprato {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blue .direito {
+	background: #6acdcc;
+    padding-bottom: 63px;
+}
+
+
+.blue .title {
+	background: #1b3976;
+}
+
+.blue {
+	background: #6acdcc;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.blue .title h2 {
+    line-height: 52px;
+}
+
+.blue .description {
+	background: #0f5596;
+}
+.blue .fotoprato h2 {
+	float: left;
+	padding-left: 50px;
+	line-height: 52px;
+}
+
+/*amarelo*/
+.yellow ul {
+	float: none;
+        margin-left: -9px !important;
+}
+
+.yellow li{margin: 10px;}
+
+.yellow .fotoprato {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.yellow .direito h3{ color: #000 !important;}
+.yellow .direito{ padding-bottom: 63px;}
+
+
+.yellow .description h3{ color: #FFF !important;}
+
+.yellow .title {
+	background: #4e104e;
+}
+
+.yellow {
+	background: #fdb813;
+    padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.yellow .description {
+	background: #840c84;
+}
+
+.yellow h2 { line-height: 52px;}
+
+
+
+
+#receitaum {
+	margin-top:24px;
+	padding-top: 80px;
+        padding-bottom: 0;
+}
+#banner.chef {
+	min-height: 530px;
+	padding-top: 220px;
+}
+#banner.renata {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/renata_vanzetto_banner.jpg) no-repeat center center;
+	background-size: cover;
+}
+#banner.victor {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#banner.menu {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/banner_nossoschefs.jpg) no-repeat center center;
+	background-size: cover;
+	padding-top: 100px;
+}
+#banner.rest {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/banner-restaurantes.jpg) no-repeat center center;
+	background-size: cover;
+}
+#banner.even {
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+.victor h1 {
+	color: #ffffff;
+}
+.chef.menu h1 {
+	color: #ffffff;
+	font-size: 140px;
+	margin: 0 0 0 210px;
+	line-height: 105px;
+}
+.chef h1 {
+	font-size: 130px;
+	margin: 0;
+	line-height: 100px;
+}
+.right {
+	text-align: right;
+}
+.bio {
+	min-height: auto;
+	padding: 40px 0;
+}
+
+.bege {
+	background: #ffeed6;
+}
+.bege p {
+	color: #000000 !important;
+}
+.bio p {
+	font-family: 'Geomanist';
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 17px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+.bio .container {
+	padding: 0 90px;
+}
+.bio .col-lg-6 {
+	padding: 0 70px;
+}
+
+
+img.direito {
+	margin: -90px 0 50px 0;
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+	transform: rotate(5deg);
+    width: 380px;
+    margin-top: 46px;
+}
+img.esquerdo {
+	-ms-transform: rotate(-5deg); /* IE 9 */
+	-webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+	transform: rotate(-5deg);
+}
+.outroschefs {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo-de-madeira-outros-chefs.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: auto;
+	padding: 100px 0 150px 0;
+	background-attachment: fixed;
+}
+.frame {
+	text-align: center;
+}
+.outroschefs h2 {
+	font-size: 80px;
+	line-height: 74px;
+	text-align: center;
+	margin-bottom: 30px !important;
+}
+.outroschefs a:hover h3 {
+	color: #535353;
+}
+.faixa ul a li {
+	float: left;
+	font-family: 'Geomanist';
+	font-weight: 300;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+.rest h1 {
+	font-size: 90px;
+	margin: 10px 0 0 0;
+	color: #fff;
+}
+.rest p {
+	font-size: 18px;
+        line-height:28px;
+	color: #fff;
+	font-weight: 200;
+
+}
+section.restaurante div {
+	padding: 0;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+section.receitas div {
+	padding: 0;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.kita {
+	background: url(../img/restaurante_kitasushibar.jpg);
+}
+.pverger {
+	background: url(../img/restaurante_pverger.jpg);
+}
+.laterrina {
+	background: url(../img/restaurante_laterrina.jpg);
+}
+.hubfood {
+	background: url(../img/restaurante_hubfoodartlounge.jpg);
+}
+.capim {
+	background: url(../img/restaurante_capimdourado.jpg);
+}
+.tresmeiacinco {
+	background: url(../img/restaurante_365.jpg) no-repeat center center;
+}
+section.restaurante a {
+	display: block;
+	min-height: 500px;
+	padding: 140px 0 0 0;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+section.receitas a {
+	    min-height: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.restaurante {
+	margin: 0;
+	padding: 0 !important;
+	min-height: 0;
+}
+.receitas {
+	margin: 0;
+	padding: 0 !important;
+	min-height: 0;
+}
+
+.receitas .filtr-container h2 {
+    font-family: 'Have Heart One';
+    font-size: 57px;
+    text-transform: none;
+    line-height: 59px;
+}
+
+section.restaurante h2 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Geomanist';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+section.receitas h2 {
+	width: 100%;
+	text-align: center;
+	font-family: 'Geomanist';
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+section.restaurante a {
+	background-color: rgba(0,0,0, 0.6);
+}
+section.receitas a {
+	background-color: rgba(0,0,0, 0.6);
+}
+section.restaurante a:hover {
+	background-color: rgba(0,0,0, 0.2);
+}
+section.receitas a:hover {
+	background-color: rgba(0,0,0, 0.2);
+}
+section.restaurante a:hover > h2 {
+	display: block;
+}
+section.receitas a:hover > h2 {
+	display: block;
+}
+.bola {
+	margin: 0 25px;
+}
+.evento{
+	background: url(http://cookloversleclub.com.br/wp-content/uploads/2017/05/pattern-le-grand-cheg.jpg) repeat;
+	padding-top: 50px;
+    margin-bottom: 50px;
+}
+.evento_old{
+background:none !important;
+padding-top: 50px;
+    margin-bottom: 50px;
+}
+.event h2 {
+	padding: 10px 20px;
+        float:left;
+}
+.event .container {
+	padding: 0;
+}
+.evento h3 {
+	margin: 70px 0 20px 0;
+	font-size: 60px;
+	line-height: 60px;
+	float: none;
+clear: both;
+}
+.evento p {
+	margin: 0 0 20px;
+	font-weight: normal;
+	font-size: 20px;
+}
+.evento img {
+	border: 8px solid #FFFFFF;
+	margin-bottom: 65px;
+	margin-top: 25px;
+	max-width: 100%;
+	box-shadow: 7px 8px 13px rgba(0,0,0, 0.25);
+}
+.fotosevento {
+	margin-top: 45px;
+margin-bottom: 80px;
+	padding: 0 40px !important;
+}
+.fotoum {
+	float: left;
+	-ms-transform: rotate(5deg); /* IE 9 */
+	-webkit-transform: rotate(5deg); /* Safari */
+	transform: rotate(5deg);
+}
+.fotodois {
+	float: left;
+	-ms-transform: rotate(-2deg); /* IE 9 */
+	-webkit-transform: rotate(-2deg); /* Safari */
+	transform: rotate(-2deg);
+	margin-bottom: 25px;
+}
+.fototres {
+	float: left;
+	-ms-transform: rotate(-4deg); /* IE 9 */
+	-webkit-transform: rotate(-4deg); /* Safari */
+	transform: rotate(-4deg);
+}
+.more_rest {
+	width: 278px;
+	height: auto;
+}
+#redevento {
+	background: #ef4058;
+	margin-top: -50px;
+	padding-top: 0px;
+	min-height: auto;
+}
+#redevento .container {
+	padding: 0 125px;
+}
+#redevento h2 {
+	font-family: 'Have Heart 2';
+	color: #FFF;
+	text-align: center;
+	font-size: 80px;
+	line-height: 160px;
+}
+#redevento input, #redevento textarea, #redevento select {
+	height: 40px;
+	color: #000000;
+	font-size: 18px;
+}
+#redevento input[type=submit] {
+	width: auto;
+	height: auto;
+	float: right;
+	background: #FFF;
+	color: #0a3969;
+	font-family: "Geomanist";
+	font-weight: normal;
+	font-size: 18px;
+	padding: 10px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 3px;
+}
+#redevento input[type=submit]:hover {
+	background: rgba(255,255,255,0.8);
+}
+section.chefsmenu {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/fundo_madeira_nossos_chefs_menu.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.chefsmenu .container div {
+	margin-bottom: 160px;
+}
+#banner.interno {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 295px;
+	margin-top: 80px;
+}
+.kitasushi {
+	background: url(../img/banner_kitasushibar.jpg);
+}
+#banner.interno h1 {
+	color: #fff;
+	font-size: 80px;
+	margin: 10px 0;
+}
+.logorestaurante {
+	margin-top: -40px;
+	float: left;
+	max-width: 100%;
+}
+.restauranteinterno .container {
+	padding: 0 15px !important;
+}
+.restauranteinterno {
+	padding-top: 17px;
+	height: 100px;
+}
+.contentrestaurante a {
+	color: #000000;
+}
+.contentrestaurante {
+	background: #f9f8e9;
+	padding-top: 50px;
+	font-family: "Geomanist";
+	font-weight: 300;
+}
+.contentrestaurante h2 {
+	color: #000000;
+}
+.beneficiolcah {
+	border: solid 2px #000000;
+	padding: 15px 25px;
+	width: 100%;
+	font-size: 20px;
+}
+#yellow_block {
+	padding: 10px;
+	background-color: #fdb813;
+	margin: 10px 0 40px 0px;
+        float: left;
+}
+.contentrestaurante .col-sm-8 {
+	padding-right: 100px;
+}
+.contentrestaurante p {
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	line-height: 25px;
+}
+.info {
+	background: #d8d9eb;
+	width: 275px;
+	margin-top: 15px;
+	padding: 40px 30px 0px 30px;
+}
+.info div {
+	padding-bottom: 50px;
+	padding-left: 60px;
+	font-size: 18px;
+}
+.tipodecomida {
+	background: url(img/icon_tipodecomida.png) no-repeat top left;
+}
+.endereco {
+	background: url(img/icon_endereco.png) no-repeat top left;
+}
+.funcionamento {
+	background: url(img/icon_funcionamento.png) no-repeat top left;
+}
+.telefone {
+	background: url(img/icon_telefone.png) no-repeat top left;
+	padding-top: 10px;
+}
+.site {
+	background: url(img/icon_site.png) no-repeat top left;
+	padding-top: 10px;
+}
+.email {
+	background: url(img/icon_email.png) no-repeat top left;
+	padding-top: 10px;
+}
+.galeria {
+	border: 2px solid #FFFFFF;
+	margin-right: 8px;
+	margin-bottom: 20px;
+	box-shadow: 3px 4px 7px rgba(0,0,0, 0.15);
+}
+.restgal img {
+	border: 4px solid #FFFFFF;
+	margin: 40px 0 30px 0;
+	box-shadow: 3px 4px 7px rgba(0,0,0, 0.15);
+	float: none !important;
+}
+.restgal img:hover {
+	-ms-transform: rotate(1deg); /* IE 9 */
+	-webkit-transform: rotate(1deg); /* Safari */
+	transform: rotate(1deg);
+}
+.restgal {
+	padding: 20px 0 !important;
+	text-align: center;
+	min-height: auto !important;
+        background-color:#ae0535;
+}
+.ls-bottom-nav-wrapper {
+	margin-top: -33px;
+}
+.legrandchef {
+	font-family: 'Have Heart 2';
+	font-size: 75px;
+	line-height: 40px;
+	margin-top: 0;
+	color: #002a41;
+	margin: 10px -20px 0 20px;
+}
+a.legrandchef, a.legrandchef:hover {
+	text-decoration: none;
+}
+
+.container.titulochef {padding-left: 88px;}
+.container.titulochef h2 {margin-right: 34px !important;}
+.fotoprato-mobile{display:none;}
+#banner-mobile{display:none;}
+
+
+@media(max-width: 1320px){.red ul{width:auto;}}
+@media (max-width: 1200px) {
+.menuexpand{width:auto;}
+.restauranteinterno {
+	display: table;
+}
+.logorestaurante {
+	margin-bottom: 20px;
+}
+
+.menuexpand .logocook, .menucollapse .logocook {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/logo-cookovers-negativo.png) no-repeat top left;
+	height: 43px;
+	width: 100px;
+	float: left;
+	margin-top: 19px;
+	background-size: contain;
+}
+.logoleclub {
+	width: 100px;
+	margin-top: 20px;
+}
+header nav {
+	float: left;
+}
+header nav ul li {
+	font-size: 14px;
+}
+.menucollapse nav {
+	margin: 0;
+}
+.linha {
+	display: none;
+}
+.border {
+	background: none;
+}
+#chamadas .col-lg-4 {
+	margin: 0 0 40px 0;
+}
+#chamadas .col-lg-4 p {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/border-horizontal.png) repeat-x bottom;
+	padding-bottom: 40px;
+}
+#contato .direito {
+	margin-top: 50px;
+}
+#contato .esquerdo {
+	background-size: cover;
+	padding: 30px 50px 30px 70px;
+	margin-top: 20px;
+}
+
+footer img {
+	height: 72px;
+}
+.receita .col-lg-6 {
+	margin-left: 380px;
+}
+.ingredientes, .preparo {
+	display: none;
+}
+.description .col-md-4 {
+	display: none;
+}
+.esquerdo .col-lg-8, .direito .col-lg-8 {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.esquerdo .description {
+	padding-left: 35px;
+}
+.bio .col-lg-6, .bio .container {
+	padding: 0 40px;
+}
+.bio img {
+	max-width: 100%;
+}
+/*.faixa .container {
+	padding-left: 0;
+}*/
+
+.faixa .container .cozinha{
+    padding: 0;
+    margin-left: -15px;
+}
+
+.outroschefs h2 {
+	font-size: 70px;
+	line-height: 70px;
+}
+#banner.rest .container div {
+	float: right;
+}
+#banner.rest {
+	min-height: auto;
+
+	padding: 20px 20px 45px 30px;
+}
+.event h2 {
+	padding: 10px 0px;
+	/*margin: 0 0 0 -55px !important;*/
+	margin: 0 0 0 35px !important;
+}
+.fotoum, .fotodois, .fototres {
+	float: none;
+}
+.legrandchef {
+	font-size: 60px;
+}
+#banner.even{
+background-position: 66% center;
+min-height: 400px;}
+}
+@media(max-width:1199px){
+#contato .direito{padding: 55px 285px 365px 280px;} #antefooter .col-lg-4{margin-left:0;}
+}
+@media (max-width: 995px) {
+.event_ante{display:none;}
+.mobile_logo {display: table; width:130px; margin:18px; }
+.mobile_event_ante{width:100%; display:table !important;}
+.mobile_event_ante img{width:100%; height:auto;}
+.calendar_ant {width: 137px !important;}
+.cozinha {margin-left: 0% !important;}
+#antefooter h3{font-size: 28px; margin-top: 277px;}	
+.chef.menu h1{font-size:80px; line-height: 70px;}
+#banner_mobile_evento{display:block !important; min-height: 0; padding: 0;}
+#banner_mobile_evento img{width:100%; height:auto;}
+
+#banner{ min-height: 0; padding:0; margin: 0;}
+.outroschefs{background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/br_mobile_wood.jpg) !important; background-attachment: initial; background-position: center; background-size: 100% !important;}
+.chefsmenu{background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/br_mobile_wood.jpg) !important; background-attachment: initial; background-position: center; background-size: 100% !important;}
+	
+.resumobeneficio {width:89%;}
+.receitas .filtr-container h2{    font-family: 'Have Heart One'; font-size: 49px;   text-transform: none; line-height: 53px;}
+.cozinha-receita h2{line-height: 34px !important;}
+div#logo_hotel_rest img { width: 100% !important;}
+.contentrestaurante	.info{ width: 100% !important;}
+.contentrestaurante	.gallery-item{ width:47% !important; float: left;}
+.contentrestaurante	figure{ width: 100% !important;}
+img.attachment-thumbnail.size-thumbnail{ width: 100%; height: auto;}
+.contentrestaurante h2 { color: #000000; line-height: 48px;  margin: 30px 10px 10px !important;  font-size: 46px;}
+.title_rest h2{font-size: 34px; font-weight: bold;}
+	.contentrestaurante	.restgal{width:39px; line-height:45px;}
+	
+.rest h1{font-size: 75px; margin: 27px 0 ;}
+.frame h3{margin-top: 291px;}
+#slider {margin-top: 0;}
+header .container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+section{padding: 50px 0;}
+.menuexpand .logocook, .menucollapse .logocook {
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/logo_cook_lovers_le_club_accor_hotels.png) no-repeat top left;
+	height: 122px;
+	width: 183px;
+	margin-top: 0;
+	background-size: contain;
+}
+	
+
+.foto{left: 17%; position: relative;}
+.frame{left: 15% !important;}
+#contato h2{color:#FFFFFF; background-image: none !important; background-color: #002a41;  width: 100%; font-size: 63px !important; padding: 30px 4rem 4px !important;}
+#contato .esquerdo{margin-top:0 !important;}
+#chamadas {background-image: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/bg_mobile_lousa.jpg); background-attachment: initial; backbackground-position: center; background-size: 100%; }	
+#antefooter {background-image: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/br_mobile_wood.jpg); background-attachment: initial; backbackground-position: center; background-size: 100%;}
+#antefooter h2{line-height: 34px !important;}
+
+	.menucollapse nav, .menuexpand nav {
+	margin: 20px 0 10px 0;
+	padding: 0;
+	width: 100%;
+}
+header nav {
+	float: left;
+}
+header nav ul li {
+	font-size: 14px;
+	float: none;
+	width: 100%;
+	height: auto;
+	padding: 12px 0;
+}
+.logocook{display:none;}
+.logoleclub {display:none;}
+section, footer, .faixa {
+	margin-left: 180px;
+	width: calc(100% - 180px);
+}
+.form_papo_chefe, .questions_area, .container.sliderpapodechef, .restaurante, .ls-wp-fullwidth-container, .container.sliderreceita.receita, .slidehome, .nespresso {
+	margin-left: 180px !important;
+	width: calc(100% - 180px) !important;
+}
+.banner-mobile-perg{display:block; width:100%; height: auto;}
+	.banner-mobile-perg img{width:100%; height: auto;}
+.ls-wp-fullwidth-container{display:none;}
+.container.sliderpapodechef {
+	padding: 140px 20px !important;
+}
+img.ls-bg.ls-preloaded {
+	margin-left: -324.007px !important;
+}
+section .container, footer .container {
+	width: calc(100% - 180px);
+	padding: 0;
+}
+#contato h2 {
+	font-size: 50px;
+	padding: 0 45px 21px 40px;
+	background-size: contain;
+}
+#contato .esquerdo {
+	padding: 40px 50px !important;
+	background: #002a41;
+}
+#contato .direito {
+	padding: 40px !important;
+	background: #002a41;
+	/*float: none;*/
+	height: auto;
+	margin-bottom: 70px;
+}
+.inscrevase {
+	margin: 20px 0 0 0;
+}
+#antefooter p {
+	font-size: 16px;
+	margin-top:10px;
+}
+#antefooter .col-lg-4 {
+	padding: 0;
+	height: 380px;
+    	margin-left: 10%;
+}
+section#antefooter h2 {
+   line-height: 51px;
+    padding: 0 6rem;
+	
+}
+footer nav {
+	display: none;
+}
+#banner {
+	margin-top: 0;
+	background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/banner-receitas-mesa-livro-thumbnail.jpg) repeat top center;
+}
+#banner .container, .receita .container {
+	width: 100%;
+}
+.receita .col-lg-6 {
+	margin: 0 auto;
+	float: none;
+	padding-left: 100px;
+}
+nav.receita {
+	margin-left: 180px;
+	width: calc(100% - 180px);
+}
+
+.row div {
+	position: initial;
+}
+.fotoprato {
+	height: 400px;
+	background-position: center 30px !important;
+}
+.direito, .esquerdo {
+	padding-bottom: 1px !important;
+}
+#banner.chef {
+min-height: 0;
+padding: 50px 0 50px 0px;
+width:100%;	
+}
+.chef h1 {	font-size: 100px; margin: 0; line-height: 100px; left: 71%; position: relative;}
+.outroschefs .foto {left: -3%;}
+	
+.bio .col-lg-6, .bio .container {
+	padding: 0 0px;
+}
+img.direito {
+	margin: -10px 0 50px 0;
+}
+.outroschefs .col-md-4 {
+	float: left;
+	margin-bottom: 100px;
+}
+.outroschefs h2 {
+	margin-bottom: -60px !important;
+}
+header nav ul li a {
+	padding: 5px 0;
+	min-height: auto;
+}
+.bola {
+	margin: 0px 20px;
+}
+.event .container {
+	padding: 0 100px;
+	width: auto;
+}
+#redevento .container {
+	padding: 0;
+}
+.evento img {
+	margin-bottom: 0;
+}
+.event h2 {
+	padding: 10px 0px;
+	margin: 0 !important;
+	text-align: left;
+}
+.sliderpapodechef h1 {
+	font-size: 90px;
+}
+#layerslider_4 .ls-preloaded {
+	margin-left: -546px !important;
+}
+section.restaurante div {
+	width: 100%;
+}
+.slidehome {
+	padding: 0 30px !important;
+	box-sizing: border-box !important;
+}
+	
+	.chef.menu{padding:40px 0;}
+.chef.menu h1 {
+	margin: 0px 0 0 40px;
+}
+.right {
+	text-align: left;
+}
+.chefsmenu .container div {
+   margin-bottom: 200px;
+}
+.esconder {
+	display: none;
+}
+.slidenovotel {
+	right: 0;
+	position: absolute;
+}
+.diferente {
+	margin-top: 165px;
+	float: left;
+}
+
+span.call_to_receita{float: left; top: 0px;}
+footer.row{margin-right: 0px; margin-left: 0px;}
+#banner.even{display:none !important;}
+
+.cozinha { width:auto !important;}
+.chefsmenu img{margin-left:56px;}
+.titulochef{width:auto !important;}
+.chef-cards{padding-left:150px !important; padding-top: 75px;}
+.receitas{width:auto; margin-left:180px !important;}
+.banner-mobile-receita{background: url(http://cookloversleclub.com.br/desenv/wp-content/themes/twentyseventeen/img/receitas.jpg) no-repeat; width:100%; height: 310px;
+background-position: 50% 13%;}
+.fotoprato{display:none;}
+.fotoprato-mobile{display:block; /*background: url(http://cookloversleclub.com.br/desenv/wp-content/themes/twentyseventeen/img/brisa-burguer.jpg) no-repeat; 310px*/ min-height:375px ; margin-top:-11rem; }
+#banner-mobile{width:100%; display:block; margin-top:105px;}
+.responsive-menu-search-box{display:none !important;}
+.barra{display:none;}
+section#slider{display:none}
+#banner.interno{margin-top:0;}
+#banner.rest, #banner.interno, .banner-mobile-receita, .banner-mobile-perg, .mobile_event_ante {margin-top: 105px;}
+#banner_mobile_evento {margin-top: 85px;}
+	
+}
+
+@media(max-width: 895px){
+.call_to_receita{top:0;}
+.banner-mobile-perg{background-position:-8% 50%;}
+.chef-cards{padding-left:80px !important;}
+
+
+}
+
+
+@media (max-width: 767px) {
+section .container, footer .container, section, footer, .faixa, .form_papo_chefe, .questions_area, .container.sliderpapodechef, .restaurante, .ls-wp-fullwidth-container, .container.sliderreceita.receita, .slidehome {
+	margin-left: 0px !important;
+	width: 100% !important;
+}
+.container.sliderreceita {
+padding: 0 !important;
+}
+.receita .col-lg-6 {
+    margin: -25px 0 0 -80px !important;
+}
+.outroschefs h2 {
+margin-bottom: 20px !important;
+}
+	
+
+#produtos_nespresso {
+padding: 0 20px !important;
+}
+.container.sliderreceita {
+    background: rgba(255,255,255,0.75);
+}
+#banner.even {
+   /* background-position: -490px 0px;*/
+    min-height: 200px;
+}
+#contato h2 {
+background-size: cover;
+}
+#antefooter .col-lg-4 {
+padding-left: 23%;
+}
+span.call_to_receita{float: left; top: 0px;}
+
+	.mob-standard-logo{
+		height: auto;
+	}
+	
+	
+.vermelho.restgal h2 {
+    font-size: 34px;
+    padding: 20px 3rem;
+    line-height: 34px;
+}
+	
+.rodape-mobile{display:block; width:100%; height:100%;}
+.rodape-desk{display:none;}
+.vazio{display:none;}
+.sobreevento, .fotosevento{padding: 0 25% !important;}
+.banner-mobile-perg{margin-left:0px; background-position:32% 50%;}
+.chefsmenu .container div {margin-bottom: 400px;}
+.chef-cards{padding-left: 130px !important; padding: 0; margin-bottom: 350px;}
+.chef-cards span.foto {margin: 10px;}
+.bio{padding-left: 35px;}
+.receitas { margin-left: 0px !important;}
+#banner-mobile{background-position: right bottom;}
+
+}
+
+/*questões*/
+.wpcf7-text, .wpcf7-textarea {
+	color: #333;
+	font-weight: 300;
+}
+div.wpcf7-mail-sent-ok {
+	background: #a9e437;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding: 10px;
+	display: table !important;
+font-family: 'Geomanist';
+color: #000;
+border: none;
+}
+div.wpcf7-validation-errors {
+	background-color: #f7e700;
+	font-weight: light;
+text-align: center;
+font-family: 'Geomanist';
+}
+.form_papo_chefe .col-lg-6, .form_papo_chefe .col-lg-12 {
+	padding: 0 40px;
+}
+.form_papo_chefe, #redevento {
+	font-weight: 300;
+	font-family: 'Geomanist';
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: left;
+	text-transform: uppercase;
+}
+.form_papo_chefe {
+	margin-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+input, textarea {
+	width: 100%;
+	margin-bottom: 10px !important;
+}
+textarea {
+	height: 160px;
+}
+.form_papo_chefe h2 {
+	font-family: 'Geomanist';
+	font-weight: 300;
+	font-size: 26px;
+	margin-bottom: 22px !important;
+}
+.questions_area {
+	display: table;
+	padding-top: 40px;
+}
+.questions_area div {
+	padding: 0 40px;
+	font-family: 'Geomanist';
+	font-weight: 300;
+	font-style: normal;
+	font-size: 18px;
+}
+.quest {
+	font-family: 'Geomanist';
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.name_quest_cliente, .data_quest_cliente, .resp_quest_cliente {
+	float: left;
+	font-weight: normal;
+	font-style: normal;
+}
+.question_unit {
+	display: table;
+}
+.question_unit:hover {
+	background: #FEFEFE;
+}
+hr {
+	border-top: 1px solid #999 !important;
+	margin: 40px 0 !important;
+}
+a.fancybox.image {
+	margin: 2px;
+	display: table;
+	float: left;
+}
+/*Nespresso*/
+.nespresso {
+    margin: 60px auto 0 auto !important;
+    position: initial !important;
+}
+.nespresso div {
+padding: 15px 0 !important;
+text-align: center;
+}
+.nespresso img {
+max-width: 100% !important;
+}
+.old_price {
+	font-size: 20px;
+	text-decoration: line-through;
+	color: #bbb;
+}
+.new_price {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFF;
+}
+#frase_final {
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+#frase_final h1 {
+	font-size: 28px;
+	font-family: 'Geomanist';
+	color: #ffffff;
+	font-weight: 400;
+}
+#frase_final a {
+	color: #FFFFFF;
+}
+.title_nespresso {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#container_nespresso {
+	margin-top: 0px;
+	padding-top: 20px;
+}
+#title_nespresso {
+	padding: 10px 0;
+	font-size: 20px;
+	margin-bottom: 58px;
+	margin-top: 48px;
+}
+#title_nespresso a {
+	color: #000000;
+}
+#produtos_nespresso {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-top: 20px;
+	padding: 0px 200px;
+}
+.botao_nespresso {
+	background: #FFFFFF;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.botao_nespresso:hover {
+background: rgba(255, 255, 255, 0.75)
+}
+.bt_bb_button_text a {
+	color: #000000
+}
+.bt_bb_button_text a:hover {
+	color: #666;
+}
+.bt_bb_style_outline.bt_bb_button a {
+/* -webkit-box-shadow: none !important; */
+    /* box-shadow: none !important; */
+}
+.bt_bb_button a {
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	padding: 4px;
+	color: #000;
+}
+.bt_bb_size_small.bt_bb_button {
+	margin-top: 16px;
+}
+
+.dados_hotels {
+    color: #fff;
+    font-family: 'Geomanist';
+    font-size: 23px;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 12px;
+    line-height: 34px;
+}
+
+.logohotel {
+    margin: auto;
+    display: table;
+    margin-bottom: 53px;
+}
+
+#description {
+    margin-left: 18px;
+}
+.modopreparo p {
+    padding-left:8px;
+}
+.page{padding-bottom:80px;}
+
+img.bubble_card {
+    margin-left: 37px;
+}
+.title_rest{text-align:left !important;}
+.title_rest h1{ font-size:28px; color:#FFFFFF; font-family: 'Geomanist'; margin:0; padding:0;}
+.title_rest h2{ font-size: 23px; color: #FFFFFF; font-family: 'Geomanist'; margin: 0 !important;  padding: 0; line-height: 1;}
+
+.gallery-item {
+    width: 150px;
+    margin: 4px;
+}
+.evento_old .gallery-item {
+width: 193px;
+    height: 132px;
+    overflow: hidden;
+    border: 0;
+    margin: 1px;
+}
+
+
+.evento_old .gallery-item  img{width:100%; height:auto;}
+
+.evento_old .portrait {
+  
+    overflow: hidden;
+    width: 200px;
+}
+.evento_old .portrait img{width:100%; height:auto;}
+
+/*Formulário*/
+span.wpcf7-not-valid-tip{ height:1px; display:none;}
+div.wpcf7-validation-errors{color:#000;}
+
+/*Papo de chef*/
+.content_papo li{margin-bottom:10px;}
+
+.col2{padding:0px 90px !important;}
+
+.single-ug-image-item {
+    margin-bottom: 30px !important;
+}
+.wug-gallery-pagination a {background-color: #fff;}
+.wug-gallery-pagination span{background-color: #fff;}
+.wug-gallery-pagination { float: right;}
+.mfp-container {display: none;}
+.mfp-fade.mfp-bg.mfp-ready { display: none;}
+
+
+.aguarde_item{background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/thumb_receitas.jpg) no-repeat top left !important;}
+
+/*Evento Grand Mercure*/
+
+.evento_gm h2{color:#000;}
+
+input[type=checkbox]{float: left; width: 22px;}
+span.wpcf7-list-item-label {float: left;}
+span.wpcf7-list-item{margin:10px 0 20px  !important;}
+span.wpcf7-list-item-label {float: left; margin-top: 17px;}
+
+
+
+/*eventos anteriores*/
+.mobile_event_ante{display:none;}
+.event_ante h2 { color: #000; line-height: 59px; padding-bottom: 24px; display: table; font-size: 56px;}
+#banner.event_ante{background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/bg_banner_eventos_anteriores.jpg) no-repeat center center;
+background-size: cover; background-position-y: top;}
+.call_event_ant{border-radius:10px; background-color:#ef4058; padding:10px 15px; margin-top:2rem;}
+.event_ante h1 {font-size: 70px; margin-bottom: 3px;}
+.event_ante {font-size:18px;}
+.event_ante p { font-family: 'Geomanist' !important; font-weight: 500 !important; font-size: 19px !important;}
+
+/*Media Mobile*/
+@media(max-width: 768px){
+#antefooter .col-lg-4{ margin-left:3rem; float:none;}
+#contato .direito{padding:75px  !important;}
+.sejaum{display:none;}
+
+.direito .col-lg-8 { padding: 0 30px !important; width: 90%;}
+#redevento .container{margin-bottom: -35px;}
+}
+
+@media(max-width: 557px){
+#antefooter .col-lg-4{padding-left: 4rem;}
+
+	
+	
+img.aligncenter.wp-image-3002.size-full{width:100%; height:auto;}
+#chamadas h2 { line-height: 37px; padding: 0 6rem; font-size: 40px;}
+.chefsmenu .frame { left: 5% !important;}
+.chefsmenu img{margin-left: 19px;}
+.outroschefs .foto{left:0%;}
+.outroschefs .frame{left:7% !important;}
+.chef-cards {padding-left: 22% !important;}
+
+/*.cozinha {margin-left: -24% !important;}*/
+
+.fotoprato-mobile{background-position:45% center;}
+
+
+}
+
+/*Iphone 7 vertical*/
+@media(max-width: 375px){
+	
+.red .title h2{line-height: 40px; font-size:44px; padding: 7px 24px !important;}	
+.red .hotel { padding: 0px; width: 83%; margin: 0 48px !important;}
+.red .autor { margin-left: 49px !important; margin-bottom:20px !important;}	
+.blue .title h2{line-height: 40px; font-size:44px; }	
+.blue .hotel { padding: 0px !important; width: 83%; margin: 0 48px !important;}
+.blue .autor { margin-left: 49px !important; margin-bottom: 22px !important;}		
+	
+.yellow .title h2{line-height: 40px; font-size:44px;  padding-left: 15px; }	
+.yellow .hotel { padding: 0px !important; width: 83%; margin: 0 48px !important;}
+.yellow .autor { margin-left: 49px !important; margin-bottom: 22px !important;}	
+	
+span.call_to_receita{margin:40px;}
+#contato .direito{padding:75px; }
+#antefooter .col-lg-4{padding: 0; margin-left: -1rem !important;}
+#antefooter h2 {font-size: 45px !important;}
+#redevento .container{margin-bottom: -35px;}
+.sobreevento, .fotosevento{padding: 0 5% !important;}
+.banner-mobile-even{min-height: 100% !important;}
+.banner-mobile-perg{background-position: 30% 50%;}
+
+
+.chef-cards {padding-left: 11% !important;}
+.container.titulochef {padding-left: 8rem;}
+.container.titulochef h2 {margin-left: -42px !important; padding-right: 48px;}
+.dados_hotels {margin-left: -43px;}
+.chef h1{font-size:80px; left:0%; width:70%;}
+.titulochef h2 { line-height: 31px; margin-bottom: 31px !important; display: table;}
+.chef h2{float:none !important;}
+.chef .col-lg-6{padding:inherit !important;}	
+.outroschefs .foto{left:0%;}
+.container.titulochef{ padding-left: 4rem;}
+.bio img {max-width:70%;}
+#banner.even {min-height: 145px;}
+}
+
+
+/*Iphone 7 vertical*/
+@media(max-width: 667px){
+#antefooter .col-lg-4{padding:0; padding-left:20%;}
+#antefooter h2 {font-size: 55px;}
+.sobreevento, .fotosevento{padding: 0 20% !important;}
+.faixa h2{font-size:37px;}
+
+}
+
+/*Iphone5 vertical*/
+@media(max-width: 320px){
+#antefooter .col-lg-4{ margin-left: -20px !important;}
+span.call_to_receita{margin: 26px;}
+.chefsmenu .container div{margin-left:1%;}
+.chef-cards {padding-left: 6% !important;}
+.banner-mobile-receita{background-position:62% 50%;}
+.blue .title h2{line-height: 40px; font-size:39px; padding: 7px 43px;}
+.red .title h2{line-height: 40px; font-size:39px;}	
+.receitas .filtr-container h2{font-size: 52px; line-height: 50px;}
+	.frame{left:12%}
+}
+
+/*Iphone 5 horizontal*/
+@media(max-width: 568px){
+#antefooter .col-lg-4{padding:0; margin-left:10rem;}
+#contato h2{line-height: 30px;}
+#antefooter h2 {font-size: 55px;}
+span.call_to_receita{}
+.sobreevento, .fotosevento{padding: 0 12% !important;}
+.banner-mobile-perg{background-position: 24% 50%;}
+.blue .title{padding:40px 0;}
+
+}
+
+@media(max-width: 480px){
+#antefooter .col-lg-4{margin-left: 3rem;}
+.event .container {padding: 0px 28px;}
+.sobreevento, .fotosevento{padding: 0 10% !important;}
+#banner.even{min-height: 162px;}
+.banner-mobile-perg{background:url(http://cookloversleclub.com.br/desenv/wp-content/themes/twentyseventeen/img/banner-mobile-pergunte-chef-iphone.jpg) no-repeat !important;}
+.chef-cards {padding-left: 18%;}
+.banner-mobile-receita{background-position:59% 50%;}
+}
+
+
+.evento_anterior h2 {
+width:70% !important;
+margin:-7px auto !important;
+}
+.calendar_ant {
+    width: 137px;
+    color: #000;
+    font-weight: bold;
+    height: 128px;
+    max-height: 128px;
+    padding-top: 47px !important;
+    margin: auto;
+background:url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/bg_calendar.png) no-repeat !important;
+}
+.evento_anterior a {
+    background-color: rgba(0,0,0, 0.8) !important;
+}
+
+.evento_anterior a:hover {
+    background-color: rgba(0,0,0, 0) !important;
+}
+
+/* Fotos eventos anteriores */
+.foot_event img { width: 100%; height: auto;}
+
+
+/*Book de receitas*/
+
+#botao_book{border-radius:10px; background-color:#002a41; color:#fff; font-size:22px; padding:10px 20px; margin-left: 13px;}
+#botao_book a{color:#fff;}
+#descri_book{font-size:15px; font-weight:600;}
+.page {padding-bottom: 0px; }
+#book_area{ min-height: 400px !important;}

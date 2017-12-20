@@ -1,0 +1,423 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+	font-family: 'Geomanist';
+	font-weight: 300;
+}
+*:hover {
+	text-decoration: none !important;
+}
+header {
+	background: #002a41;
+	width: 100%;
+	height: 80px;
+	box-shadow: 3px 1px 6px rgba(0,0,0, 0.75);
+	position: fixed;
+	top: 0;
+	z-index: 9;
+}
+.menuexpand .logocook {
+	background:url(../img/logo_cook_lovers_le_club_accor_hotels.png) no-repeat top left;
+	height: 154px;
+	width: 230px;
+	float: left;
+}
+.mobile_logo { display: none !important;}
+.menucollapse .logocook {
+	background:url(../img/logo-cookovers-negativo.png) no-repeat top left;
+	height: 53px;
+	width: 127px;
+	float: left;
+	margin-top: 13px;
+}
+.logoleclub {
+	background:url(../img/logo_le_club_accor_hotels.png) no-repeat right;
+	background-size: contain;
+	width: 130px;
+	height: 40px;
+    margin-top: 18px;
+	float: left;
+}
+header nav ul {
+	padding: 0;
+}
+header nav ul a:hover {
+	cursor: pointer
+}
+header nav ul li {
+	list-style: none;
+    float: left;
+    color: #FFF;
+	padding: 22px 16px;
+    font-size: 15px;
+    font-family: 'Geomanist';
+    font-weight: 300;
+    height: 80px;
+	text-align: center;
+}
+header nav ul li:hover {
+	background: #ef4058;
+}
+.menucollapse nav {    margin: 0 60px;}
+nav.col-lg-7, header.col-lg-3 {
+	margin: 0;
+	padding: 0;
+}
+.glyphicon-home {
+	padding-top:10px;
+}
+#slider {
+	height: 800px;
+	background: url(../img/slider_marcador.jpg) center center;
+	background-size: cover;
+	position: relative;
+}
+.barra {
+	width: 100%;
+	bottom: 0;
+    position: absolute;
+}
+section {
+	width: 100%;
+	min-height: 800px;
+	padding: 100px 0 50px 0;
+	float: left;
+}
+#chamadas {
+	background: url(../img/fundo-cozinha.jpg) top center;
+	background-size: cover;
+	text-align: center;
+}
+.border {
+	background: url(../img/border.png) repeat-y right;
+}
+h2 {
+	color: #FFFFFF;
+    font-family: 'Have Heart One';
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+    font-size: 50px;
+    margin: 0px !important;
+}
+#chamadas .col-lg-4 img {
+	border: 5px solid #FFFFFF;
+	margin-bottom: 25px;
+	box-shadow: 7px 8px 13px rgba(0,0,0, 0.65);
+}
+.linha .col-lg-4 {
+	padding: 0 20px;
+}
+.linha p {	
+	background: url(../img/border-horizontal.png) repeat-x center;
+	height: 70px;
+}
+#chamadas p {
+	color: #FFFFFF;
+    font-family: 'Geomanist';
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0 40px;
+}
+#contato {
+	background: url(../img/plano-de-fundo-contato.jpg) repeat center center fixed;	
+	color: #ffffff;
+	padding-bottom: 0;
+}
+#contato h2 {
+	font-family: 'Have Heart 2';
+	background: url(../img/fundo_titulo_contato.png) no-repeat center center;
+	padding: 0px 80px 40px 80px;
+    text-align: center;
+    color: #000000;
+    float: left;
+    background-size: contain;
+    font-size: 85px;
+}
+#contato .esquerdo {
+	background: url(../img/fundo-paragrafo-esquerdo-contato.png) no-repeat center center;
+	background-size: contain;
+	padding: 60px 115px 70px 130px;
+}
+#contato .direito {
+	background: url(../img/fundo-paragrafo-direito-contato.png) no-repeat center center;
+	background-size: contain;
+	font-size: 14px;
+	padding: 65px 85px 365px 80px;
+}
+.esquerdo p {
+	color: #ffffff;
+	font-family: 'Geomanist';
+	font-size: 17px;
+    line-height: 32px;
+}
+.direito input {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.submit {
+	float: right;
+  background-color: #a9e437;
+  width: 97px;
+  height: 34px;
+	border: none;
+	color: #002a41;
+	font-size: 16px;
+}
+.submit:hover {
+	background: #83b02a;
+}
+.inscrevase {
+	float: right;
+    font-size: 12px;
+    text-align: right;
+    margin-right: 15px;
+}
+#antefooter {
+	background: url(../img/fundo-de-madeira.jpg) center center fixed;
+	background-size: cover;
+	color: #FFF;
+	text-align: center;
+    margin-top: -7px;
+    position: relative;
+}
+#antefooter h2 {
+	font-size: 70px;
+}
+#antefooter p {
+	font-size: 18px;
+    font-family: 'Geomanist';
+    line-height: 27px;
+    margin: 0 0 60px 0;
+}
+.foto {
+	float: left;
+    margin: 13px 0 0 13px;
+}
+.frame {
+	background: url(../img/frame-foto.png) no-repeat center center;
+	width: 282px;
+	height: 342px;
+	margin: 0 auto;
+	position: absolute;
+	box-shadow: 1px 5px 10px rgba(0,0,0, 0.65);
+}
+h1, h3 {
+	color: #000000;
+    font-family: 'Have Heart One';
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+	-moz-osx-font-smoothing: grayscale !important;
+	font-size: 45px;
+}
+h3 {
+    margin-top: 277px;
+}
+.frame.um {
+	-ms-transform: rotate(1deg); /* IE 9 */
+    -webkit-transform: rotate(1deg); /* Safari */
+    transform: rotate(1deg);
+}
+.frame.dois {
+	-ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Safari */
+    transform: rotate(-1deg);
+}
+.frame.tres {
+	-ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
+}
+footer, nav.receita {
+	background: #002a41;
+    width: 100%;
+    padding: 40px 0 0 0;
+    float: left;
+    text-align: center;
+}
+footer nav {
+	width: 100%;
+	background: #000000;
+	height: 80px;
+	margin-top: 15px;
+	margin: 0 !important;
+}
+footer nav ul li {
+	list-style: none;
+    float: left;
+    color: #FFF;
+    padding: 35px 12px 0 12px;
+    font-size: 12px;
+    font-family: 'Geomanist';
+    font-weight: 300;
+    text-align: center;
+}
+footer nav ul li:hover {
+	color: #a6a6a6;
+}
+footer nav ul {
+	width: 695px;
+    margin: 0 auto;
+}
+#pattern {
+	min-height: 50vh;
+	background: url(../img/padrao_rodape_azulejo.jpg) repeat center center;
+	padding: 0;
+}
+#banner {
+	margin-top: 80px;
+	min-height: 600px;
+	background: url(../img/banner-receitas-mesa-livro.jpg) repeat top center;
+}
+.receita {
+	color: #000000;
+}
+.receita h1 {
+	margin: 30px 0 0 0;
+	font-size: 75px;
+}
+.receita p {
+	font-size: 18px;
+	line-height: 28px;
+}
+.receita .col-lg-6 {
+	margin-left: 480px;
+}
+nav.receita img {
+	border: 8px solid #FFFFFF;
+	box-shadow: 1px 5px 10px rgba(0,0,0, 0.65);
+	margin-bottom: 15px;
+}
+nav.receita h2 {
+	color: #FFFFFF;
+    font-family: 'Geomanist';
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+@media (max-width: 1200px){
+	.menuexpand .logocook, .menucollapse .logocook {
+		background:url(../img/logo-cookovers-negativo.png) no-repeat top left;
+		height: 43px;
+		width: 100px;
+		float: left;
+		margin-top: 19px;
+		background-size: contain;
+	}
+	.logoleclub {
+		width: 100px;
+		margin-top: 20px;
+		}
+	header nav {
+		float: left;
+	}
+	header nav ul li {
+		font-size: 14px;	
+	}
+	.menucollapse nav {
+		margin: 0;
+	}
+	.linha {
+		display: none;
+	}
+	.border {
+		background: none;
+	}
+	#chamadas .col-lg-4 {
+		margin: 0 0 40px 0;
+	}
+	#chamadas .col-lg-4 p {
+		background: url(../img/border-horizontal.png) repeat-x bottom;
+		padding-bottom: 40px;
+	}
+	#contato .direito {
+		padding: 55px 285px 365px 280px;
+		margin-top: 50px;
+	}
+	#contato .esquerdo {
+		background-size: cover;
+		padding: 30px 50px 30px 70px;
+    	margin-top: 20px;
+	}
+	#antefooter .col-lg-4 {
+		float: left;
+	}
+	footer img {
+		height: 72px;
+	}
+}
+
+
+
+
+@media (max-width: 995px){
+	header .container {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.banner_mobile{	margin-top: 90px !important;}
+	.header{height:90px !important;}
+	.mobile_logo{display:table !important; width:130px !important; margin: 18px !important;}
+	.menuexpand .logocook, .menucollapse .logocook {
+		background:url(../img/logo_cook_lovers_le_club_accor_hotels.png) no-repeat top left;
+		height: 122px;
+    	width: 183px;
+		margin-top: 0;
+		background-size: contain;
+	}
+	.menucollapse nav, .menuexpand nav {
+		margin: 20px 0 10px 0;
+		padding: 0;
+		width: 100%;
+	}
+	header nav {
+		float: left;
+	}
+	header nav ul li {
+		font-size: 14px;
+		float: none;
+		width: 100%;
+		height: auto;
+		padding: 12px 0;
+	}
+	.logoleclub {
+		display:none;
+	}
+	section, footer {
+		margin-left: 180px;
+		width: calc(100% - 180px);
+	}
+	section .container, footer .container {
+		width: calc(100% - 180px);
+		padding: 0;
+	}
+	#contato h2 {
+		font-size: 50px;
+		padding: 0 45px 21px 40px;
+		background-size: contain;
+	}
+	#contato .esquerdo {
+		padding: 50px 35px 60px 50px;
+	}
+	#contato .direito {
+		padding: 40px;
+		background: #002a41;
+		float: left;
+		margin-bottom: 40px;
+	}
+	.inscrevase {
+		margin: 20px 0 0 0;
+	}
+	#antefooter p {
+    	font-size: 16px;
+	}
+	#antefooter .col-lg-4 {
+		padding: 0 60px;
+		height: 380px;
+	}
+	footer nav {display: none;
+	}
+}

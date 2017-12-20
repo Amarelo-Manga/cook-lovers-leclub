@@ -1074,6 +1074,26 @@ section.restaurante a:hover > h2 {
 section.receitas a:hover > h2 {
 	display: block;
 }
+
+
+
+#paginacao{padding: 0px;padding-bottom: 40px;}
+#paginacao .screen-reader-text{display: none;}
+#paginacao a.page-numbers{    font-family: 'Geomanist';
+    font-weight: lighter;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: .3em;}
+#paginacao span.page-numbers{background: #ef4058;
+    font-family: 'Geomanist';
+    font-weight: lighter;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 7px 10px 0px;}
+
+
 .bola {
 	margin: 0 25px;
 }

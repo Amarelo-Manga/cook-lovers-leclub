@@ -610,6 +610,10 @@ footer nav ul {
 	font-family: 'Geomanist';
 	font-size: 25px;
 }
+#filtroestado{display: inline-block;}
+#filtroestado span{font-family: 'Geomanist';letter-spacing: 1px;font-weight: 200;font-size: 16px;color:#fff;}
+#filtroestado .select-estado{display: inline-block;background: #012b41;color: #ffff;font-family: 'Geomanist';letter-spacing: 1px;font-weight: 200;font-size: 14px;border: 0px;width: 150px;height: 38px;}
+
 /* Se na página de restaurante escolhermos preto no titulo*/
 .title_black h1 {
 	color: #000000 !important;
@@ -972,6 +976,7 @@ img.esquerdo {
 	font-weight: 200;
 
 }
+section.restaurante{background: #012b41;}
 section.restaurante div {
 	padding: 0;
 	background-size: cover;
@@ -1485,8 +1490,8 @@ div#logo_hotel_rest img { width: 100% !important;}
 img.attachment-thumbnail.size-thumbnail{ width: 100%; height: auto;}
 .contentrestaurante h2 { color: #000000; line-height: 48px;  margin: 30px 10px 10px !important;  font-size: 46px;}
 .title_rest h2{font-size: 34px; font-weight: bold;}
-	.contentrestaurante	.restgal{width:39px; line-height:45px;}
-	
+.contentrestaurante	.restgal{width:39px; line-height:45px;}
+
 .rest h1{font-size: 75px; margin: 27px 0 ;}
 .frame h3{margin-top: 291px;}
 #slider {margin-top: 0;}

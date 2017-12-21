@@ -35,8 +35,9 @@
 <?php wp_footer(); ?>
 
 	<script src="<?php echo get_template_directory_uri()?>/js/jquery.easing.min.js"></script>
-        <script src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
-        <script src="<?php echo get_template_directory_uri()?>/js/scrolling-nav.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/js/scrolling-nav.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/js/main.js"></script>
         
        
         <!-- Filtro da página de restaurantes  -->

@@ -18,7 +18,7 @@
 		while ( have_posts() ) : the_post();
 	?>
 		<div class="col-lg-4 col-md-4 col-sm-12 filtr-item <?php the_title(); ?>" style="background-image: url('<?php echo get_the_post_thumbnail_url();?>')">
-			<a href="<?php the_title(); ?>">
+			<a href="<?php the_permalink(); ?>">
 				<div class="resumobeneficio">
 					<h2><?php the_title(); ?></h2>
 				</div>
@@ -29,7 +29,8 @@
 		endwhile; 
 	?>
 	<?php 
-		$htmlEspaco = '<div class="col-lg-4 col-md-4 col-sm-12 filtr-item <?php the_title(); ?>" style="background-image: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/thumb_receitas.jpg)"><a href="<?php the_title(); ?>"><div class="resumobeneficio"><h2>Aguarde</h2></div></a></div>';
+		$htmlEspaco = '<div class="col-lg-4 col-md-4 col-sm-12 filtr-item <?php the_title(); ?>" 
+						style="background:url(/wp-content/themes/twentyseventeen/img/thumb_receitas.jpg)"><a href="#" >"><div class="resumobeneficio"><h2>Aguarde</h2></div></a></div>';
 		$count_multiplo = $count_multiplo % 3;
 		if( $count_multiplo == 1 ){
 			echo $htmlEspaco . $htmlEspaco;

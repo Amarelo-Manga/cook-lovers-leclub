@@ -660,8 +660,11 @@ require get_parent_theme_file_path( '/inc/icon-functions.php' );
  * post_per_page archive receitas
  */
 function wpsites_query( $query ) {
-if ( $query->is_archive() && is_post_type_archive('receitas') && $query->is_main_query() && !is_admin()) {
-        $query->set( 'posts_per_page', 4 );
+	if ( $query->is_archive() && is_post_type_archive('receitas') && $query->is_main_query() && !is_admin()) {
+        $query->set( 'posts_per_page', 15 );
+    }
+ 	if ( $query->is_archive() && is_post_type_archive('restaurante') && $query->is_main_query() && !is_admin()) {
+        $query->set( 'posts_per_page', -1 );
     }
 }
 add_action( 'pre_get_posts', 'wpsites_query' );

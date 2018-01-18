@@ -2205,7 +2205,7 @@ background:url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/
 
 /*Book de receitas*/
 
-#botao_book{border-radius:10px; background-color:#002a41; color:#fff; font-size:22px; padding:10px 20px; margin-left: 13px;}
+#botao_book{border-radius:10px; background-color:#002a41; color:#fff; font-size:15px; padding:10px 20px; margin-left: 13px;}
 #botao_book a{color:#fff;}
 #descri_book{font-size:15px; font-weight:600;}
 .page {padding-bottom: 0px; }

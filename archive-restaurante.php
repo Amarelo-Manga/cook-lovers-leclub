@@ -58,7 +58,7 @@ do Cook Lovers e os benefícios que eles oferecem<br> para nossos associados.</p
 	?>
 	<?php 
 		$htmlEspaco = '<div class="col-lg-4 col-md-4 col-sm-12 filtr-item <?php the_title(); ?>" 
-						style="background:url(/cookloversleclub/wp-content/uploads/2017/06/Restaurant_em_breve.jpg)"><a href="#"><div class="resumobeneficio"><h2>Aguarde</h2><h3>Em breve novos benefícios</h3></div></a></div>';
+						style="background:url(/wp-content/uploads/2017/06/Restaurant_em_breve.jpg)"><a href="#"><div class="resumobeneficio"><h2>Aguarde</h2><h3>Em breve novos benefícios</h3></div></a></div>';
 		$count_multiplo = $count_multiplo % 3;
 		if( $count_multiplo == 1 ){
 			echo $htmlEspaco . $htmlEspaco;

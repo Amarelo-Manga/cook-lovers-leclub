@@ -7,11 +7,6 @@ $image_fundo_mobile = get_field('imagem_banner_mobile');
 
 ?>
 
-
-
-
-
-
 <style type="text/css"> 
 #banner{background-image: url("<?php echo $image_fundo['url']; ?>");}
 
@@ -72,42 +67,43 @@ if ($id != 21){ ?>
 </section>
 	
 	<?}	?>			
-			<section id="redevento">
-			<div class="container">
+<section id="redevento">
+	<div class="container">
 		<?php the_field("formulario_de_cadastro") ?>
-			</div>
-		</section>
+	</div>
+</section>
 
-<!--section style="min-height: 0px;" id="antefooter" class="foot_event">
+<section style="min-height: 0px;padding-bottom: 110px;" id="antefooter" class="foot_event">
 	<div class="container">
 		<h2 style="margin-bottom: 20px !important;">Confira o que já rolou por aqui</h2>
 	</div>
 	<div class="container">
-		
-
-	
-			
-			
 	<?php 
-$posts = get_posts(array(
-    'posts_per_page' => 2,
-    'orderby'   => 'rand',
-	'post_type'	=> 'eventos'
-));
-if( $posts ): ?>			
-<?php foreach( $posts as $post ): setup_postdata( $post );?>				
+		$args = array(
+		    'posts_per_page' => 3,
+		    'orderby'   	 => 'rand',
+			'post_type'		 => 'eventos',
+			'exclude'   	 => get_the_ID()
+		);
+		$posts = get_posts( $args );
+		if( $posts ): 
+			foreach( $posts as $post ): setup_postdata( $post );
+	?>				
 			<a href="<?php echo get_permalink()?>">
 				<div class="col-lg-4">
-					<span class="foto ">
-						<?php the_post_thumbnail()?>
+					<span class="foto">
+						<img src="<?php echo get_the_post_thumbnail_url(); ?>" style="max-width:260px;height:265px" />
 					</span>
+					<div class="frame um">
+						<h3><?php the_title()?></h3>
+					</div>
 				</div>
 			</a>
-			<?php endforeach; ?>
-		
-		<?php wp_reset_postdata(); ?>
-	<?php endif; ?>	
-		
+	<?php 
+			endforeach; 
+			wp_reset_postdata();
+		endif; 
+	?>	
 	</div>
-</section-->
+</section>
 <?php get_footer(); ?>

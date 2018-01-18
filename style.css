@@ -2056,12 +2056,16 @@ span.wpcf7-list-item-label {float: left; margin-top: 17px;}
 /*eventos anteriores*/
 .mobile_event_ante{display:none;}
 .event_ante h2 { color: #000; line-height: 59px; padding-bottom: 24px; display: table; font-size: 56px;}
+.event_futuro h2{color: #000; line-height: 59px; padding-bottom: 24px; display: table; font-size: 56px;}
 #banner.event_ante{background: url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/bg_banner_eventos_anteriores.jpg) no-repeat center center;
 background-size: cover; background-position-y: top;}
 .call_event_ant{border-radius:10px; background-color:#ef4058; padding:10px 15px; margin-top:2rem;}
 .event_ante h1 {font-size: 70px; margin-bottom: 3px;}
+.event_futuro h1 {font-size: 70px; margin-bottom: 3px;}
+.event_futuro .col-lg-5{margin-left: 60%;}
 .event_ante {font-size:18px;}
 .event_ante p { font-family: 'Geomanist' !important; font-weight: 500 !important; font-size: 19px !important;}
+.event_futuro p { font-family: 'Geomanist' !important; font-weight: 500 !important; font-size: 19px !important;}
 
 /*Media Mobile*/
 @media(max-width: 768px){

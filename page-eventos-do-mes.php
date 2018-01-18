@@ -5,15 +5,14 @@
 ?>
 <?php get_header(); ?>
 <div class="mobile_event_ante">
-<img src="http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/mobile_banner_eventos_anteriores.jpg" alt="Confira como foram os eventos culinários do Le Club AccorHotels. Fique ligado nos eventos futuros e curta toda a experiência culianária nos hotéis da AccorHotels."/>
+<img src="http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/mobile_banner_eventos.jpg" alt="Confira como foram os eventos culinários do Le Club AccorHotels. Fique ligado nos eventos futuros e curta toda a experiência culianária nos hotéis da AccorHotels."/>
 </div>
-<section id="banner" class="event_ante">
+<section id="banner" style="background-image:url(http://cookloversleclub.com.br/wp-content/themes/twentyseventeen/img/bg_banner_eventos.jpg);    background-size: 100% 100%;" class="event_futuro">
 	<div class="container">
 		<div class="col-lg-6"></div>
 		<div class="col-lg-5 col-md-8 col-sm-12">
 			<h1>Eventos do Mês</h1>
-			<h2>
-				Confira <br>os eventos gastronômicos<br> do Cook Lovers</h2>
+			<h2>Confira os eventos <br>gastronômicos do <br>Cook Lovers</h2>
 		</div>
 	</div>
 </section>
@@ -89,7 +88,6 @@
 				<a href="#">
 					<div class="resumobeneficio">
 						<h2 style="font-weight: bold;">Aguarde os próximos eventos, fique ligado para participar</h2><br ><br>
-						<span class="call_event_ant">Em Breve</span>
 					</div>
 				</a>
 			</div>

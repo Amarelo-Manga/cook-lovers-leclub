@@ -1466,6 +1466,7 @@ min-height: 400px;}
 }
 @media (max-width: 995px) {
 .event_ante{display:none;}
+.event_futuro{display:none;}
 .mobile_logo {display: table; width:130px; margin:18px; }
 .mobile_event_ante{width:100%; display:table !important;}
 .mobile_event_ante img{width:100%; height:auto;}
